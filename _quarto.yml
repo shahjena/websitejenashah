@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jena Shah"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: cv.pdf
+        text: CV
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
